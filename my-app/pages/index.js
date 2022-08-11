@@ -199,9 +199,9 @@ export default function Home() {
         providerOptions: {},
         disableInjectedProvider: false
       });
-      onPageLoad(); 
+      onPageLoad();
     }
-  },[])
+  },[walletConnected])
 
   const renderButton = () => {
     
